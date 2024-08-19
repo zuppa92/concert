@@ -1,0 +1,48 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.navbar {
+  background-color: #1c1c1c; /* Darker background for a moody feel */
+  color: white;
+  padding: 15px; /* Add padding to the navbar */
+  display: flex; /* Display items in a row */
+  justify-content: space-around; /* Space out the nav items */
+  align-items: center; /* Center the items vertically */
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px; /* Add space between the labels */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+  color: #f39c12; /* Change color on hover to a moody highlight (orange) */
+}
+
+.logout-button {
+  background-color: #f39c12; /* Matching button color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e67e22; /* Darker shade on hover */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
